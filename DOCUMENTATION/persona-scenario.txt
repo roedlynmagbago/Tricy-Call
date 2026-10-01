@@ -1,0 +1,243 @@
+TRICY-CALL
+
+System Scenarios and User Functions 
+ADMIN
+Account & User Management 
+• Logs in. 
+• Logs out. 
+• Creates a user account. 
+• Searches for a user. 
+• Views user information. 
+• Edits user information. 
+• Pick a user's role. 
+• Resets a user's password. 
+• Views all registered users.
+ 
+Driver & Tricycle Management 
+• Adds a new driver. 
+• Adds a new tricycle unit. 
+• Assigns a Unit ID. 
+• Enters tricycle plate number. 
+• Edits driver information. 
+• Edits tricycle information. 
+• Deletes a driver record. 
+• Deletes a tricycle record. 
+• Views driver details. 
+• Views tricycle details. 
+• Searches for a driver. 
+• Searches for a tricycle. 
+• Filters drivers by status. 
+• Filters tricycles by status. 
+• Assigns a driver to a tricycle. 
+• Assigns a tricycle to a service zone. 
+• Changes a driver's status. 
+• Changes a tricycle's status. 
+
+
+
+
+
+
+Service Zone Management 
+• Views all service zones. 
+• Adds a new service zone.
+• Edits service zone information. 
+• Deletes a service zone. 
+• Searches for a service zone. 
+• Views the service zone on the map. • Assigns a tricycle to a service zone. • Assigns a terminal to a service zone. • Views assigned tricycles within a zone. • Views the boundaries of a service zone. 
+Dispatch Management 
+• Views the dispatch queue. 
+• Adds a tricycle to the queue. 
+• Removes a tricycle from the queue. • Views the next tricycle in line. 
+• Selects a tricycle for dispatch. 
+• Assigns a trip/service area. 
+• Changes a tricycle's status to dispatched. • Changes a tricycle's status to on trip. • Changes a tricycle's status to available. • Cancels a dispatch. 
+• Views current dispatch status. 
+Reports & Records 
+• Views dispatch records. 
+• Searches dispatch records. 
+• Filters dispatch records. 
+• Views driver history. 
+• Views tricycle history. 
+• Views previous dispatches. 
+• Views service-zone assignments. 
+• Views changes made to driver/unit records. Map 
+• Opens the service-area map. 
+• Searches for a terminal. 
+• Searches for a tricycle. 
+• Searches for a service zone. 
+• Selects a tricycle marker. 
+• Views tricycle details from the marker. • Views terminal locations. 
+• Views service-zone boundaries. 
+• Views assigned tricycles on the map. 
+
+
+
+
+DISPATCHER 
+Account 
+• Logs in.
+• Logs out. 
+• Updates their profile. 
+• Changes their password. 
+
+Dispatch Queue 
+
+• Views the dispatch queue. 
+• Adds a tricycle to the queue. 
+• Removes a tricycle from the queue. • Views the position of a tricycle in the queue. • Selects the next available tricycle. • Dispatches a tricycle. 
+• Updates dispatch status. 
+• Cancels a dispatch. 
+• Views currently dispatched tricycles. • Marks a tricycle as available. 
+• Marks a tricycle as on trip. 
+
+Driver & Tricycle Information 
+• Searches for a driver. 
+• Searches for a tricycle. 
+• Views driver information. 
+• Views tricycle information. 
+• Views plate number. 
+• Views assigned service zone. 
+• Views current tricycle status. 
+• Checks if a tricycle is available for dispatch. Service Zones 
+• Views service zones. 
+• Searches for a service zone. 
+• Views a service zone on the map. 
+• Checks a tricycle's assigned zone. • Views terminal locations. 
+• Views available tricycles within a zone. Dispatch Records 
+• Views dispatch history. 
+• Searches dispatch records. 
+• Filters dispatch records. 
+• Views the driver assigned to a dispatch. • Views the tricycle assigned to a dispatch. • Views dispatch date and time. 
+• Views completed dispatches. 
+
+Map 
+• Opens the service-area map. 
+• Searches for a tricycle. 
+• Searches for a terminal.
+• Views service zones. 
+• Selects a tricycle marker. 
+• Views tricycle information. 
+• Views the assigned service zone. 
+
+TRICYCLE DRIVER 
+
+Account 
+• Logs in. 
+• Logs out. 
+• Updates their profile. 
+• Changes their password. 
+• Views their account information. 
+Dispatch Status 
+• Views their current queue status. 
+• Views their queue position. 
+• Views their dispatch status. 
+• Views whether their unit is available. • Views whether their unit is dispatched. • Views whether their unit is on trip. 
+• Views previous dispatch records. 
+Driver & Unit Information 
+
+• Views their driver information. 
+• Views their tricycle information. 
+• Views their plate number. 
+• Views their assigned terminal. 
+• Views their assigned service zone. • Views their current unit status. 
+Service Zone 
+• Views their assigned service zone. • Opens the service zone on the map. • Views the terminal location. 
+• Views the designated service area. 
+
+
+SYSTEM-LEVEL SCENARIOS 
+Authentication 
+• Successful login. 
+• Incorrect password. 
+• Invalid account. 
+• Disabled account. 
+• Account registration. 
+• Duplicate username. 
+• Duplicate email.
+• Password confirmation mismatch. • Password reset. 
+• Logout. 
+
+User Management 
+• Create user account. 
+• View user account. 
+• Edit user information. 
+• Disable user account. 
+• Enable user account. 
+• Change user role. 
+• Search for a user. 
+• Reset user password. 
+• Invalid user information. 
+
+Driver & Tricycle 
+• Add driver. 
+• Add tricycle. 
+• Assign driver to tricycle. 
+• View driver. 
+• View tricycle. 
+• Edit driver information. 
+• Edit tricycle information. 
+• Delete driver. 
+• Delete tricycle. 
+• Search driver. 
+• Search tricycle. 
+• Update tricycle status. 
+
+Dispatch 
+• Add tricycle to queue. 
+• View dispatch queue. 
+• Select next tricycle. 
+• Dispatch tricycle. 
+• Update dispatch status. 
+• Cancel dispatch. 
+• Mark tricycle as available. 
+• Mark tricycle as on trip. 
+• Complete dispatch. 
+• View dispatch history. 
+• Duplicate queue entry. 
+• Tricycle unavailable for dispatch. Service Zone / GIS 
+• Add service zone. 
+• View service zone.
+• Edit service zone. 
+• Delete service zone. 
+• Assign tricycle to service zone. • Assign terminal to service zone. • Search service zone. 
+• View service zone on map. 
+• View tricycle location. 
+• View terminal location. 
+• Service zone has invalid coordinates. • Map fails to load. 
+• Map markers fail to load. 
+
+Map / Location 
+• Map loads successfully. 
+• Map fails to load. 
+• Service-zone markers load. 
+• Terminal markers load. 
+• Tricycle markers load. 
+• User selects a marker. 
+• User searches for a location. 
+• Map centers on selected location. • Location data is unavailable. 
+• Invalid location coordinates. 
+Records 
+
+• Save dispatch record. 
+• Retrieve dispatch record. 
+• Update dispatch record. 
+• Delete dispatch record. 
+• Search records. 
+• Filter records by date. 
+• Filter records by driver. 
+• Filter records by tricycle. 
+• Filter records by service zone. • View dispatch history. 
+Backend / Database 
+• Data successfully saved. 
+• Data successfully retrieved. 
+• Data successfully updated. 
+• Data successfully deleted. 
+• Internet unavailable. 
+• Database request fails. 
+• Authentication request fails. 
+• Data synchronization. 
+• Duplicate data detected. 
+• Required information is missing.
+
+
