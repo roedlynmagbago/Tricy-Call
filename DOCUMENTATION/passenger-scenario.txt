@@ -1,0 +1,50 @@
+PASSENGER
+Account
+Creates an account.
+Logs in.
+Logs out.
+Updates their profile.
+Changes their password.
+Views their account information.
+Resets their password.
+
+Passenger / Home
+Opens the home page.
+Views the map.
+Searches for a destination.
+Searches for a terminal.
+Views nearby tricycle terminals.
+Selects a destination.
+Views available service areas.
+Views available tricycles.
+Views the assigned service zone.
+
+Ride / Trip
+Selects a destination.
+Views available tricycle service.
+Requests a ride.
+Views the assigned tricycle.
+Views driver information.
+Views tricycle information.
+Views trip status.
+Cancels a ride request.
+Views completed trip information.
+
+Map
+Opens the map.
+Searches for a destination.
+Searches for a terminal.
+Views terminal markers.
+Views service-zone boundaries.
+Selects a terminal marker.
+Views terminal information.
+Views available service areas.
+Uses the map to identify the destination.
+
+Profile
+Views profile information.
+Edits personal information.
+Updates contact information.
+Changes password.
+Views ride history.
+Logs out.
