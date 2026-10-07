@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NasugbuTricycleApp"
+rootProject.name = "Tricy-Call"
 include(":app")
