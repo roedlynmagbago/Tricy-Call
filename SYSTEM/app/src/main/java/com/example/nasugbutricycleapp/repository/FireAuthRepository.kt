@@ -36,7 +36,6 @@ object FirebaseAuthRepository {
             .createUserWithEmailAndPassword(email.trim(), password)
             .addOnSuccessListener { result ->
                 val uid = result.user?.uid
-
                 if (uid == null) {
                     onResult(false, "Unable to get user ID.")
                     return@addOnSuccessListener
@@ -81,7 +80,6 @@ object FirebaseAuthRepository {
         FirebaseManager.auth
             .signInWithEmailAndPassword(email.trim(), password)
             .addOnSuccessListener { result ->
-
                 val uid = result.user?.uid
                 if (uid == null) {
                     FirebaseManager.auth.signOut()
@@ -101,7 +99,6 @@ object FirebaseAuthRepository {
                         val status = document.getString("status")
                         val driverStatus =
                             document.getString("driverApplicationStatus")
-
                         if (status != "ACTIVE") {
                             FirebaseManager.auth.signOut()
                             onResult(false, "Account is not active.")
