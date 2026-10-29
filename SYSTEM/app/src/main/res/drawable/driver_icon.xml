@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Driver head -->
+    <path
+        android:fillColor="#777777"
+        android:pathData="M12,4A3,3 0,1 0,12 10A3,3 0,1 0,12 4z" />
+
+    <!-- Driver body -->
+    <path
+        android:fillColor="#777777"
+        android:pathData="M7,20c0,-3.2 2.2,-5.5 5,-5.5s5,2.3 5,5.5H7z" />
+
+    <!-- Cap -->
+    <path
+        android:fillColor="#777777"
+        android:pathData="M8,4.8C8.8,3.6 10.2,3 12,3s3.2,0.6 4,1.8l-1,1.2H9L8,4.8z" />
+
+    <!-- Steering wheel -->
+    <path
+        android:fillColor="#777777"
+        android:pathData="M12,12c-2.2,0 -4,1.8 -4,4s1.8,4 4,4 4,-1.8 4,-4 -1.8,-4 -4,-4zM12,13.3c1.5,0 2.7,1.1 2.9,2.5h-2.2c-0.2,-0.4 -0.4,-0.6 -0.7,-0.6s-0.5,0.2 -0.7,0.6H9.1c0.2,-1.4 1.4,-2.5 2.9,-2.5z" />
+
+</vector>
